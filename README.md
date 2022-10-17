@@ -1,5 +1,5 @@
 # foo_stopafteralbum
-For foobar2000 v2: Activate stop after current, if TRACKNUMBER = TOTALTRACKS.
+For `foobar2000` `v2`+: Activate stop after current, if TRACKNUMBER = TOTALTRACKS.
 
 # Building from source
 Requirements:
