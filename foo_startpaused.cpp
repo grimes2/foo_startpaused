@@ -8,17 +8,12 @@ static constexpr const char* component_name = "Start paused";
 
 DECLARE_COMPONENT_VERSION(
 	component_name,
-	"1.3",
+	"1.0",
 	"grimes\n\n"
 	"Build: " __TIME__ ", " __DATE__
 );
 
 VALIDATE_COMPONENT_FILENAME("foo_startpaused.dll");
-
-pfc::string8 tracknumber;
-int tracknumber2;
-pfc::string8 totaltracks;
-int totaltracks2;
 
 // {FC0DC88B-7CAF-49F6-BBAF-8E27E7C2E83E}
 static const GUID g_guid_main_startpaused =
