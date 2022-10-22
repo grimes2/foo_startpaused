@@ -1,8 +1,7 @@
 #define _WIN32_WINNT _WIN32_WINNT_WIN7
 #define WINVER _WIN32_WINNT_WIN7
 
-#include <helpers/foobar2000+atl.h>
-#include <SDK/titleformat.cpp>
+#include <foobar2000/SDK/foobar2000.h>
 
 static constexpr const char* component_name = "Start paused";
 
