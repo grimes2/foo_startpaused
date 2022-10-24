@@ -1,7 +1,9 @@
 # foo_startpaused
 For `foobar2000` `v2` and newer: Start playback paused.
 
-# Building from source
+## Building from source
 Requirements:
 * https://www.foobar2000.org/SDK
-* https://wtl.sourceforge.io/
+
+## Download foobar2000
+* https://www.foobar2000.org/download
