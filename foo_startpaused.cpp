@@ -18,7 +18,7 @@ VALIDATE_COMPONENT_FILENAME("foo_startpaused.dll");
 static const GUID g_guid_main_startpaused =
 { 0xfc0dc88b, 0x7caf, 0x49f6, { 0xbb, 0xaf, 0x8e, 0x27, 0xe7, 0xc2, 0xe8, 0x3e } };
 
-class mainmenu_mycommands : public mainmenu_commands {
+class mainmenu_startpaused : public mainmenu_commands {
 	virtual t_uint32 get_command_count() { return 1; }
 	virtual GUID get_command(t_uint32 p_index) {
 		if (p_index == 0)
@@ -55,4 +55,4 @@ class mainmenu_mycommands : public mainmenu_commands {
 		return sort_priority_dontcare;
 	}
 };
-static mainmenu_commands_factory_t< mainmenu_mycommands > g_mainmenu_mycommands;
+static mainmenu_commands_factory_t< mainmenu_startpaused > g_mainmenu_startpaused;
