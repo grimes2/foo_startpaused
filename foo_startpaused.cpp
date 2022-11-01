@@ -42,7 +42,7 @@ class mainmenu_startpaused : public mainmenu_commands {
 			static_api_ptr_t<playback_control>()->play_start(playback_control::t_track_command::track_command_play, true);
 		}
 	}
-	virtual bool get_display(t_uint32 p_index, pfc::string_base& p_text, t_uint32& p_flags)
+	virtual bool get_display(t_uint32 p_index, pfc::string_base& p_text, t_uint32&)
 	{
 		if (p_index == 0)
 		{
@@ -52,7 +52,7 @@ class mainmenu_startpaused : public mainmenu_commands {
 	}
 	virtual t_uint32 get_sort_priority()
 	{
-		return sort_priority_dontcare;
+		return 0x80000000;
 	}
 };
 static mainmenu_commands_factory_t< mainmenu_startpaused > g_mainmenu_startpaused;
