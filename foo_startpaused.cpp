@@ -31,7 +31,7 @@ class mainmenu_startpaused : public mainmenu_commands {
 	}
 	virtual bool get_description(t_uint32 p_index, pfc::string_base& p_out) {
 		if (p_index == 0)
-			p_out = "Start playback paused";
+			p_out = "Start playback paused.";
 		return true;
 	}
 	virtual GUID get_parent() { return mainmenu_groups::playback; }
